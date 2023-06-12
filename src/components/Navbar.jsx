@@ -33,7 +33,8 @@ const Navbar = () => {
                 {navLinks.map((nav) => (
                     <li
                         key={nav.id}
-                        className={`${active === nav.title ? "text-white rounded-[25px] bg-black" : "text-white"} p-2 hover:text-white hover:rounded-[25px] hover:bg-[#f5ebe0] text-[18px] font-medium cursor-pointer`}
+                        // className={`${active === nav.title ? "text-white rounded-[25px] bg-black" : "text-white"} p-2 hover:text-white hover:rounded-[25px] hover:bg-[#f5ebe0] text-[18px] font-medium cursor-pointer`}
+                        className={`${active === nav.title ? "text-amber-300" : "text-white"} p-2 hover:text-amber-300  text-[25px] cursor-pointer`}
                         onClick={() => setActive(nav.title)}
                     >
                         <a href={`#${nav.id}`}>{nav.title}</a>
