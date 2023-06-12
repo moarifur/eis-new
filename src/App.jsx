@@ -1,10 +1,12 @@
 import React from 'react';
+import {BrowserRouter} from "react-router-dom";
+
+import Navbar from "./components/Navbar.jsx";
 import Hero from "./sections/Hero.jsx";
+import OurService from "./sections/OurService.jsx";
+import Footer from "./components/Footer.jsx";
 import PhysicalServices from "./sections/PhysicalServices.jsx";
 import DigitalServices from "./sections/DigitalServices.jsx";
-import Navbar from "./components/Navbar.jsx";
-import {BrowserRouter} from "react-router-dom";
-import OurService from "./sections/OurService.jsx";
 
 const App = () => {
     return (
@@ -12,8 +14,9 @@ const App = () => {
             <Navbar />
             <Hero />
             <OurService />
-            <PhysicalServices />
-            <DigitalServices />
+            <Footer />
+            {/*<PhysicalServices />*/}
+            {/*<DigitalServices />*/}
         </BrowserRouter>
     );
 };

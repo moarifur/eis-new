@@ -115,15 +115,15 @@ const OurService = () => {
                             />
                             <img
                                 alt="..."
-                                src={FacilityManager}
+                                src={CallCenter2}
                                 className="w-full align-middle rounded-lg absolute shadow-lg"
-                                style={{ maxWidth: 300, left: 260, top: "-400px" }}
+                                style={{ maxWidth: 350, left: 260, top: "-400px" }}
                             />
                             <img
                                 alt="..."
-                                src={Security2}
+                                src={Security1}
                                 className="w-full align-middle rounded absolute shadow-lg"
-                                style={{ maxWidth: 300, left: -50, top: "-50px", zIndex: 3 }}
+                                style={{ maxWidth: 300, left: -50, top: "-70px", zIndex: 3 }}
                             />
 
                             {/*<img*/}
@@ -135,31 +135,31 @@ const OurService = () => {
 
                             <img
                                 alt="..."
-                                src={CallCenter2}
+                                src={FacilityManager}
                                 className="w-full align-middle rounded absolute shadow-xl"
-                                style={{ maxWidth: 320, left: 280, top: "-150px" }}
+                                style={{ maxWidth: 450, left: 280, top: "-190px" }}
                             />
                             <img
                                 alt="..."
-                                src={Security1}
+                                src={Security2}
                                 className="w-full align-middle rounded absolute shadow-lg"
-                                style={{ maxWidth: 580, left: "-20px", top: 180 }}
+                                style={{ maxWidth: 580, left: "-20px", top: 150 }}
                             />
                         </div>
                     </div>
                 </div>
 
             </div>
-            {/*<div className="justify-center text-center flex flex-wrap mt-24">*/}
-            {/*    <div className="w-full md:w-6/12 px-12 md:px-4">*/}
-            {/*        <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>*/}
-            {/*        <p className="text-lg leading-relaxed mt-4 mb-4 text-slate-500">*/}
-            {/*            Tailwind Starter Kit is a completly new product built using our past*/}
-            {/*            experience in web templates. Take the examples we made for you and start*/}
-            {/*            playing with them.*/}
-            {/*        </p>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+            <div className="justify-center text-center flex flex-wrap mt-24">
+                {/*<div className="w-full md:w-6/12 px-12 md:px-4">*/}
+                {/*    <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>*/}
+                {/*    <p className="text-lg leading-relaxed mt-4 mb-4 text-slate-500">*/}
+                {/*        Tailwind Starter Kit is a completly new product built using our past*/}
+                {/*        experience in web templates. Take the examples we made for you and start*/}
+                {/*        playing with them.*/}
+                {/*    </p>*/}
+                {/*</div>*/}
+            </div>
         </div>
     );
 };
