@@ -3,20 +3,21 @@ import {BrowserRouter} from "react-router-dom";
 
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./sections/Hero.jsx";
-import OurService from "./sections/OurService.jsx";
-import Footer from "./sections/Footer.jsx";
-import PhysicalServices from "./sections/PhysicalServices.jsx";
-import DigitalServices from "./sections/DigitalServices.jsx";
+import About from "./components/About.jsx";
+import Services from "./sections/Services.jsx";
+import Offers from "./sections/Offers.jsx";
+import Footer from "./components/Footer.jsx";
+
 
 const App = () => {
     return (
         <BrowserRouter>
             <Navbar />
             <Hero />
-            <OurService />
+            <About />
+            <Offers />
+            <Services />
             <Footer />
-            {/*<PhysicalServices />*/}
-            {/*<DigitalServices />*/}
         </BrowserRouter>
     );
 };
